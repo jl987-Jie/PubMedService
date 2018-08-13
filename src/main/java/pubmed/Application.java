@@ -12,8 +12,8 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @Configuration
 @EnableAutoConfiguration
 @EnableAsync
-@EnableDynamoDBRepositories("reciter.database.dynamodb")
-@ComponentScan("reciter")
+@EnableDynamoDBRepositories("pubmed.database.dynamodb")
+@ComponentScan("pubmed")
 public class Application {
 
     public static void main(String[] args) {
